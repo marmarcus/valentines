@@ -1,0 +1,56 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(images/heartwallpaper.jpg);
+    background-size: 100vw;
+    overflow: hidden;
+}
+
+#question, #saidyes {
+    margin: 75px auto 0;
+    padding: 30px 25px;
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 38px;
+    color:lightpink;
+    -webkit-text-stroke: .5px rgba(255, 125, 125, 0.533);
+}
+
+img {
+    border-radius: 10%;
+    width: 450px;
+}
+
+#hiddenmsg {
+    visibility: hidden;
+}
+
+button {
+    width: 125px;
+    height: 40px;
+    margin: 0 10px;
+
+    background-color: rgb(255, 212, 227);
+    border: 1px solid rgb(249, 203, 227);
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(255, 207, 223);
+    border: 1px solid rgb(236, 193, 216);
+}
+
+
